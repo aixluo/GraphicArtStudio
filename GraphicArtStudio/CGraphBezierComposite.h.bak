@@ -1,0 +1,57 @@
+#pragma once
+#include "CShape.h"
+#include <vector>
+
+// Bezier曲线段结构
+struct BezierSegment {
+    std::vector<CPoint> controlPoints;  // 控制点
+    COLORREF color;                      // 曲线颜色
+    int degree;                          // 曲线次数（控制点数-1）
+};
+
+// Bezier曲线拼接类
+class CBezierComposite : public CShape
+{
+public:
+    CBezierComposite(COLORREF color = RGB(0, 0, 0), int width = 1);
+    virtual ~CBezierComposite();
+    
+    // 添加一段Bezier曲线
+    void AddSegment(const std::vector<CPoint>& controlPoints, COLORREF color);
+    
+    // 开始新的曲线段
+    void StartNewSegment(COLORREF color);
+    
+    // 添加控制点到当前段
+    void AddControlPoint(CPoint pt);
+    
+    // 完成当前段
+    void FinishCurrentSegment();
+    
+    // 绘制
+    virtual void Draw(CDC* pDC) override;
+    
+    // 克隆
+    virtual CShape* Clone() override;
+    
+    // 变换
+    virtual void Transform(double matrix[3][3]) override;
+    
+    // 获取段数
+    int GetSegmentCount() const { return (int)m_segments.size(); }
+    
+    // 检查是否有未完成的段
+    bool HasUnfinishedSegment() const { return !m_currentSegment.controlPoints.empty(); }
+    
+private:
+    std::vector<BezierSegment> m_segments;  // 所有曲线段
+    BezierSegment m_currentSegment;         // 当前正在构建的段
+    COLORREF m_polyColor;                   // 控制多边形颜色
+    
+    // 辅助函数
+    double Factorial(int n);
+    double BinomialCoefficient(int n, int i);
+    CPoint CalculateBezierPoint(const std::vector<CPoint>& points, double t);
+    void DrawSegment(CDC* pDC, const BezierSegment& segment);
+    void DrawControlPolygon(CDC* pDC, const BezierSegment& segment);
+};

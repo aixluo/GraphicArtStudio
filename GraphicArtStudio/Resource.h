@@ -1,0 +1,180 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by GraphicArtStudio.rc
+//
+#define IDD_ABOUTBOX				100
+#define IDP_OLE_INIT_FAILED			100
+#define IDR_MAINFRAME				128
+#define IDR_GraphicArtStudioTYPE	130
+#define IDD_PROPERTY_PANEL			131
+#define IDD_COLOR_DIALOG			132
+#define IDD_TEXT_INPUT				133
+#define IDR_TOOLBAR					134
+#define IDD_CIRCLE_INPUT			135
+#define IDD_TRANSFORM				136
+#define IDD_COMPOSITE_TRANSFORM		137
+#define IDD_COLOR_PICKER			138
+#define IDD_CANVAS_SIZE				139
+#define IDD_CLIPPING_WINDOW			140
+#define IDD_LINE_INPUT				141
+
+// Dialog Controls
+#define IDC_COLOR_PICKER			1001
+#define IDC_LINE_WIDTH				1002
+#define IDC_FILL_CHECK				1003
+#define IDC_FILL_COLOR				1004
+#define IDC_FONT_COMBO				1005
+#define IDC_FONTSIZE_COMBO			1006
+#define IDC_ALGORITHM_COMBO			1007
+#define IDC_TEXT_CONTENT			1008
+#define IDC_BG_COLOR				1009
+#define IDC_TEXT_COLOR_BTN			1010
+#define IDC_CIRCLE_CENTER_X			1011
+#define IDC_CIRCLE_CENTER_Y			1012
+#define IDC_CIRCLE_RADIUS			1013
+#define ID_DRAW_CIRCLE_INPUT		1014
+#define IDC_TRANS_PARAM1			1015
+#define IDC_TRANS_PARAM2			1016
+#define IDC_TRANS_PARAM3			1017
+#define IDC_TRANS_PARAM4			1018
+#define IDC_TRANS_PARAM5			1019
+#define IDC_TRANS_PARAM6			1020
+#define IDC_SYMMETRY_TYPE			1021
+#define IDC_TRANSFORM_LIST			1022
+#define IDC_ADD_TRANSFORM			1023
+#define IDC_REMOVE_TRANSFORM		1024
+#define IDC_MOVE_UP					1025
+#define IDC_MOVE_DOWN				1026
+#define IDC_PICK_COLOR_BTN			1027
+#define IDC_PRESET_COMBO			1028
+#define IDC_WIDTH_EDIT				1029
+#define IDC_HEIGHT_EDIT				1030
+#define IDC_CLIP_LEFT				1031
+#define IDC_CLIP_TOP				1032
+#define IDC_CLIP_RIGHT				1033
+#define IDC_CLIP_BOTTOM				1034
+#define IDC_START_X					1035
+#define IDC_START_Y					1036
+#define IDC_END_X					1037
+#define IDC_END_Y					1038
+#define IDC_TRANS_LABEL1			1040
+#define IDC_TRANS_LABEL2			1041
+#define IDC_TRANS_LABEL3			1042
+#define IDC_TRANS_LABEL4			1043
+#define IDC_TRANS_LABEL5			1044
+#define IDC_TRANS_LABEL6			1045
+#define IDC_SYMMETRY_LABEL			1046
+
+// File Menu - 使用 MFC 标准 ID，不重新定义
+// ID_FILE_NEW, ID_FILE_OPEN, ID_FILE_SAVE 等由 afxres.h 提供
+
+// Edit Menu - 使用自定义 ID 避免冲突
+#define ID_MY_UNDO					33001
+#define ID_MY_REDO					33002
+#define ID_MY_CLEAR					33003
+#define ID_MY_SELECT_ALL			33004
+
+// Draw Menu - Basic Shapes
+#define ID_DRAW_LINE				32779
+#define ID_DRAW_LINE_INPUT			32820
+#define ID_DRAW_CIRCLE				32780
+#define ID_DRAW_ELLIPSE				32781
+#define ID_DRAW_POLYGON				32782
+#define ID_DRAW_TEXT				32783
+
+// Draw Menu - Curves
+#define ID_DRAW_BEZIER				32784
+#define ID_DRAW_BSPLINE				32785
+
+// Transform Menu
+#define ID_TRANSFORM_TRANSLATE		32786
+#define ID_TRANSFORM_SCALE			32787
+#define ID_TRANSFORM_ROTATE			32788
+#define ID_TRANSFORM_SHEAR			32789
+#define ID_TRANSFORM_SYMMETRY		32790
+#define ID_TRANSFORM_COMPOSITE		32791
+
+// Clip Menu
+#define ID_CLIP_LINE				32792
+#define ID_CLIP_POLYGON				32793
+
+// Fill Menu
+#define ID_FILL_SCANLINE			32794
+#define ID_FILL_SEED				32795
+#define ID_FILL_CHARACTER			32821
+#define ID_FILL_SET_COLOR			32822
+#define ID_FILL_TOGGLE				32823
+
+// View Menu
+#define ID_VIEW_COORDINATE			32796
+#define ID_VIEW_GRID				32797
+#define ID_VIEW_PROPERTY			32798
+#define ID_VIEW_TOOLBAR				32799
+#define ID_VIEW_CANVAS_SIZE			32817
+
+// Tool Menu
+#define ID_TOOL_SELECT				32800
+#define ID_TOOL_MOVE				32801
+#define ID_TOOL_SCALE				32802
+#define ID_TOOL_ROTATE				32803
+
+// Color Menu
+#define ID_COLOR_LINE				32804
+#define ID_COLOR_FILL				32805
+#define ID_COLOR_BACKGROUND			32806
+
+// Line Width
+#define ID_WIDTH_1					32807
+#define ID_WIDTH_2					32808
+#define ID_WIDTH_3					32809
+#define ID_WIDTH_5					32810
+
+// Line Algorithm
+#define ID_ALGO_DDA					32811
+#define ID_ALGO_BRESENHAM			32812
+#define ID_ALGO_MIDPOINT			32813
+#define ID_ALGO_SYSTEM				32814
+
+// Help Menu
+#define ID_HELP_USAGE				32815
+#define ID_HELP_ABOUT				32816
+
+// Comprehensive Drawing Menu
+#define ID_DRAW_SOLAR_SYSTEM		32818
+#define ID_DRAW_CHINESE_CHAR		32824
+
+// Chinese Character Dialog
+#define IDD_CHINESE_CHAR			202
+#define IDC_CHAR_EDIT				2020
+#define IDC_HOLLOW_CHECK			2021
+#define IDC_PREVIEW_BTN				2022
+#define IDC_LINEWIDTH_COMBO			2023
+#define IDC_LINESTYLE_COMBO			2024
+#define IDC_COLOR_BTN				2025
+
+// Background Color Dialog
+#define IDD_BACKGROUND_COLOR		200
+#define IDC_COLOR_PREVIEW			2001
+#define IDC_COLOR_BTN_1				2002
+#define IDC_COLOR_BTN_2				2003
+#define IDC_COLOR_BTN_3				2004
+#define IDC_COLOR_BTN_4				2005
+#define IDC_COLOR_BTN_5				2006
+#define IDC_COLOR_BTN_6				2007
+#define IDC_COLOR_BTN_7				2008
+#define IDC_COLOR_BTN_8				2009
+#define IDC_COLOR_BTN_9				2010
+#define IDC_COLOR_BTN_10			2011
+#define IDC_COLOR_BTN_11			2012
+#define IDC_COLOR_BTN_12			2013
+#define IDC_CUSTOM_COLOR_BTN		2014
+
+// Next default values for new objects
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE	201
+#define _APS_NEXT_CONTROL_VALUE		2015
+#define _APS_NEXT_SYMED_VALUE		138
+#define _APS_NEXT_COMMAND_VALUE		32817
+#endif
+#endif

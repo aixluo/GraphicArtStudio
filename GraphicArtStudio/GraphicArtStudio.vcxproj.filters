@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\图形类">
+      <UniqueIdentifier>{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图形类">
+      <UniqueIdentifier>{93995381-89BD-4b04-88EB-625FBE52EBFC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicArtStudio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicArtStudioDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicArtStudioView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphElement.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphLine.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphCircle.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphEllipse.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphPolygon.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphText.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphBezier.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphBSpline.h">
+      <Filter>头文件\图形类</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleInputDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrixTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphBezierComposite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPickerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFillTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicArtStudio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicArtStudioDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicArtStudioView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphElement.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphLine.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphEllipse.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphPolygon.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphText.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphBezier.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphBSpline.cpp">
+      <Filter>源文件\图形类</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleInputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrixTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphBezierComposite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPickerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFillTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClippingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineClipping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonClipping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComprehensiveDrawing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineInputDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NameCharacter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CanvasSizeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundColorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphCircle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GraphicArtStudio.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GraphicArtStudio.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GraphicArtStudioDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\GraphicArtStudio.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
